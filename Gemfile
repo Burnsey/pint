@@ -7,12 +7,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          
-gem 'bootstrap-sass' 
+gem 'bootstrap-sass'     
 
-gem 'spring',       
+gem 'spring' 
 
-
-group :development, :test do 
+group :development :test do
 	gem 'sqlite3'
 end
 
